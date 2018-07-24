@@ -7,6 +7,21 @@ npm i q43
 
 ### API
 
+<a name="Q43"></a>
+## Q43(ax, ay, bx, by, cap) ⇒ <code>Q43</code>
+Create a Q43 instance
+
+**Kind**: global function
+
+| Param | Type | Description |
+| --- | --- | --- |
+| ax | <code>Number</code> | minimum X of the Q43 boundary |
+| ay | <code>Number</code> | minimum Y of the Q43 boundary |
+| bx | <code>Number</code> | maximum X of the Q43 boundary | 
+| by | <code>Number</code> | maximum Y of the Q43 boundary |
+| cap | <code>Number</code> | The amount of points a Q43 instance can store. |
+
+<a name="containsX"></a>
 ## containsX(px) ⇒ <code>Boolean</code>
 Check if x is within the Q43's x-axis
 

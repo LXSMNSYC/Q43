@@ -1,4 +1,4 @@
-import * as vec2 from "../vec2.extra.js";
+import * as vec2 from "./vec2.extra.js";
 import {Q43} from "../main.js";
 
 let canvas = document.getElementById("c");

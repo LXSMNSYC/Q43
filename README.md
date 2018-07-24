@@ -130,8 +130,8 @@ Iterates all points in the Q43 and passes them to a handler function
 <a name="forBounds"></a>
 
 ## forBounds(ax, ay, bx, by, handler)
-and passes them to a handler functionre within the bounds
-
+Iterates all points in the Q43 that are within the bounds
+and passes them to a handler function.
 **Kind**: global function
 
 | Param | Type |
@@ -145,7 +145,8 @@ and passes them to a handler functionre within the bounds
 <a name="forRange"></a>
 
 ## forRange(px, py, radius, handler)
-and passes them to a handler.e radius of another point in the Q43
+Iterates all points within the radius of another point in the Q43
+and passes them to a handler.
 
 **Kind**: global function
 
